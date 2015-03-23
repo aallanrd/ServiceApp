@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Proyectos Externos\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-a6e8c69c111f383ffc55db92dbb04808f418cda5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-569b24c2b86ecf23f3ed711b809ab3bd4fe56cf3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-a0d2f45757be51d034fcc2a1d0f39667128c8350.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-86df327fb4bd713730c76244a5e9fd7e944c1272.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-14fa8dbd7f86d3dab96e75eec584f0a8ae7aa071.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-5fbf56b51f0b3487fef8e9a6dea1d89d1a25d6f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-13893512efd97dc72edccb036e92a40b0813f07f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-2326458ca5d9784fa4cd9302df24ac0efc0c0e5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-869a7a73c967e2c1dcd9608df1c3ac18ed86d76c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-a4bead0e806181f154cfc28fbbe10f0f61f2014c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-a15b9eca47b341bb75745eebbbd74508ad1840b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-4901a209e7a9171fdafe71c6b9ab4fc496c43742.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-e6a72bb345d6f14ea17dc8d7cefbde32bda9c03a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\libs\Parse-1.8.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0fcb6bbc9cf6d2643a90c812539aa82ed16ea315">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\Parse-1.8.4-11b29fcce61ef426e382a19bd5bbaf81605dc151.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-9f0608c0bb61b0c530d4e0e8c7061f1b585497ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-22b3c7c773e08143a684a559bb6de8522452d3b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-653c0f60e36ec549880f89c620e1bd6b061e8066.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-4b664ad0fad27d1a15f8045008af29f3664685f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-c73772076c117e4210d8f6516fc5242222e809c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-964d91c6cef7afde77fb404233787166eef506fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-6cd48df469da5880d6600db47a383556d629df55.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-8b0122fe4a32e9a1695bc055687b5f7306437581.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-76e2ce8ebc84dce8bcbb4f52eaec89ef472f156a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-c4d114e5d194c97e6b908c9ec874af9bad5dc4d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Allan\AndroidStudioProjects\NewDB\app\build\intermediates\pre-dexed\debug\classes-efd547ff2b099d09a0f96cee8616db3b8534cd55.jar" />
+    </item>
+
+</items>
