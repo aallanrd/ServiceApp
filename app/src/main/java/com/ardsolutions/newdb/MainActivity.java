@@ -2,7 +2,13 @@ package com.ardsolutions.newdb;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
@@ -16,7 +22,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ardsolutions.newdb.Fragments.menu1_Fragment;
@@ -25,9 +33,12 @@ import com.ardsolutions.newdb.Fragments.menu3_Fragment;
 import com.ardsolutions.newdb.Fragments.menu4_Fragment;
 import com.parse.Parse;
 import com.parse.ParseException;
+import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.util.List;
 
 
@@ -119,6 +130,91 @@ public class MainActivity extends ActionBarActivity
         listView3.setAdapter(adapter);*/
     }
 
+    public static final int select= 0;
+    public void openGallery(View view) {
+
+
+        Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        startActivityForResult(i, select);
+
+
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        getImage(requestCode,resultCode,data);
+    }
+
+    public void getImage(int requestCode, int resultCode, Intent data){
+        if(requestCode == select && data != null && data.getData() != null) {
+            Uri _uri = data.getData();
+
+            //User had pick an image.
+            Cursor cursor = getContentResolver().query(_uri, new String[] { android.provider.MediaStore.Images.ImageColumns.DATA }, null, null, null);
+            cursor.moveToFirst();
+
+            //Link to the image
+            final String imageFilePath = cursor.getString(0);
+
+            //PathFileImage
+            TextView et = (TextView) findViewById(R.id.textView3);
+            String filename=imageFilePath.substring(imageFilePath.lastIndexOf("/")+1);
+            myImageName = filename;
+            cursor.close();
+            et.setText(filename);
+            //ImageView
+          //  ImageView imageView = (ImageView) findViewById(R.id.imageViewS);
+          //  imageView.setImageURI(Uri.parse(imageFilePath));
+            /////////////////////////////////////////////////////////////
+            File imgFile = new  File(imageFilePath);
+            if(imgFile.exists()){
+                myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
+                //Drawable d = new BitmapDrawable(getResources(), myBitmap);
+                ImageView myImage = (ImageView) findViewById(R.id.imageViewS);
+                myImage.setImageBitmap(myBitmap);
+
+            }
+
+
+          //  Bitmap bitmap = MediaStore.Images.Media.getBitmap(t.getContentResolver() , Uri.parse(imageFilePath));
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    Bitmap myBitmap = null;
+    String myImageName = null;
+    public void toParce(View view) {
+
+        if (myBitmap == null) {
+            Toast.makeText(this.getApplicationContext(), "No has seleccionado imagen", Toast.LENGTH_SHORT).show();
+        } else {
+            // Convert it to byte
+            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+            // Compress image to lower quality scale 1 - 100
+            myBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+            byte[] image = stream.toByteArray();
+
+            // Create the ParseFile
+            ParseFile file = new ParseFile(myImageName, image);
+            // Upload the image into Parse Cloud
+            file.saveInBackground();
+
+            // Create a New Class called "ImageUpload" in Parse
+            ParseObject imgupload = new ParseObject("ImageUpload");
+
+            // Create a column named "ImageName" and set the string
+            imgupload.put("ImageName", "AndroidBegin Logo");
+
+            // Create a column named "ImageFile" and insert the image
+            imgupload.put("ImageFile", file);
+
+            // Create the class and the columns
+            imgupload.saveInBackground();
+
+            // Show a simple toast message
+            Toast.makeText(this.getApplicationContext(), "Image Uploaded",
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
@@ -229,12 +325,17 @@ public class MainActivity extends ActionBarActivity
             return rootView;
         }
 
+
+
         @Override
         public void onAttach(Activity activity) {
             super.onAttach(activity);
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+
+
+
     }
 
 }

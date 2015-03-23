@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Sensor</string>
+    <string name="app_name">Service TEC</string>
 
-    <string name="title_section1">Temp/Humedad</string>
-    <string name="title_section2">Precipitacion</string>
-    <string name="title_section3">Velocidad Viento</string>
-    <string name="title_section4">Radiacion Solar</string>
+    <string name="title_section1">Lo Encontre!</string>
+    <string name="title_section2">Lo Perdi</string>
+    <string name="title_section3">Buscar</string>
+    <string name="title_section4">Acerca</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

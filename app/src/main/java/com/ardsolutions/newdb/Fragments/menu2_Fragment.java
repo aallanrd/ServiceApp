@@ -95,7 +95,7 @@ public class menu2_Fragment extends android.support.v4.app.Fragment {
                         boolean getData = getData();
                         if (getData == true) {
                             while ((getData != true) || (c == 5)) {
-                                Thread.sleep(3000);
+                                Thread.sleep(6000);
                                 c = c + 1;
 
                             }

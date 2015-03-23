@@ -2,22 +2,74 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/menu1_layout">
+    android:id="@+id/menu1_layout"
+    android:background="@color/common_signin_btn_default_background"
+    >
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Menu Para Hoy 1"
+        android:text="PerdiTEC! Objetos Perdidos "
+        android:layout_gravity="center"
         android:id="@+id/textViewSC" />
 
-    <ListView
+
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/listView1" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sube tu foto si encontraste algo"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona Imagen"
+            android:id="@+id/OpenGallery"
+            android:onClick="openGallery"
+            android:layout_gravity="center"
+           android:theme="@style/Base.Widget.AppCompat.Toolbar"
+            />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Image Selected"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="185dp"
+        android:id="@+id/imageViewS"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UpParce"
+        android:id="@+id/UpParce"
+        android:onClick="toParce"
+        android:drawableLeft="@drawable/upload"
+        android:layout_gravity="center"
+        />
+
+
 </LinearLayout>
